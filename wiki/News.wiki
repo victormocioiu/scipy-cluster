@@ -2,7 +2,7 @@
 
 = What's new in Version 0.1.4 =
 
-  # Added new link_color_func parameter to the dendrogram function.
+  # Added new `link_color_func` parameter to the `dendrogram` function.
   # Fixed bug in `correlation` and `pdist(..., 'correlation')`.
-  # Fixed bug in dendrogram when leaves_list parameter is used.
+  # Fixed bug in `dendrogram` when `leaves_list` parameter is used.
   # Added windows installer for Python versions 2.4 and 2.5. Windows users: please let me know if it works.
