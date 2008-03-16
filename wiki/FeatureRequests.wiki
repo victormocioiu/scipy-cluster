@@ -14,7 +14,7 @@ Currently only numpy arrays containing 64-bit floats and booleans (u_chars) are 
 
 *Seconded by*: None
 
-*Date requested*: March, 2008
+*Date requested*: March 15, 2008
 
 = Feature Request 2: support for sparse vectors =
 
@@ -28,7 +28,7 @@ The distance metrics currently available only work on non-sparse representations
 
 *Seconded by*: None
 
-*Date requested*: March, 2008
+*Date requested*: March 15, 2008
 
 = Feature Request 3: support for memory mapped arrays =
 
@@ -44,4 +44,4 @@ Currently, the size of the input set of vectors on which to compute distances an
 
 *Seconded by*: None
 
-*Date requested*: March, 2008
+*Date requested*: March 15, 2008
