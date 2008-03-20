@@ -1,5 +1,11 @@
 #summary This page contains a summary of changes in each version.
 
+= What's new in Version 0.1.5 =
+
+  # Fixed a bug reported by a user where a `float32` array gets passed to the C function as a `float64` resulting in meaningless results in `pdist`.
+  # Fixed a bug involving API changes to fclusterdata. This caused fclusterdata to be completely nonfunctional.
+  # A windows release will be available tomorrow.
+
 = What's new in Version 0.1.4 =
 
   # Added new `link_color_func` parameter to the `dendrogram` function.
