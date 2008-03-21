@@ -4,7 +4,7 @@
 
   # Fixed a bug reported by a user where a `float32` array gets passed to the C function as a `float64` resulting in meaningless results in `pdist`.
   # Fixed a bug involving API changes to fclusterdata. This caused fclusterdata to be completely nonfunctional.
-  # A windows release will be available tomorrow.
+  # A new MSI installer for users with Python 2.5. Please let me know if it works.
 
 = What's new in Version 0.1.4 =
 
