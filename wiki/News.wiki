@@ -1,5 +1,10 @@
 #summary This page contains a summary of changes in each version.
 
+= What's new in Version 0.1.7 =
+
+  # Fixed some errors in the documentation for median, centroid, ward.
+  # Fixed some bugs in predicates.
+
 = What's new in Version 0.1.6 =
 
   # Fixed a bug introduced in 0.1.6 in pdist where passing boolean observation vectors always generates an exception.
