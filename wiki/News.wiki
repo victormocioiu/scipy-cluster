@@ -2,8 +2,8 @@
 
 = What's new in Version 0.1.7 =
 
-  # Fixed some errors in the documentation for median, centroid, ward.
-  # Fixed some bugs in predicates.
+  # Fixed some errors in the documentation for `median`, `centroid`, and `ward`.
+  # Fixed some bugs in predicates `numobs_y`, `numobs_linkage`, and `numobs_dm`.
 
 = What's new in Version 0.1.6 =
 
