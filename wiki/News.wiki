@@ -1,5 +1,12 @@
 #summary This page contains a summary of changes in each version.
 
+= What's new in Version 0.1.8 =
+
+  # Arrays with data type other than `float64` (e.g. `float32`, `int`, `bool`) can be passed into any parameter in any function that requires a `double`. Any non-float64 data is copied into a new float64 array. 
+  # Lists, tuples, and any other data structure supported by `numpy.asarray` can be passed as any parameter requiring a numpy array. For example, `pdist([[0.0, 3.0, 8.7], [3.4, 9.2, 16.2], [2.2, 3.0, 7.8]])` now processes its input without raising an exception. Internally, the list is converted to a numpy array, which can increase the memory footprint.
+  # Boolean distance functions now support passing non-boolean data with the caveat that storing any value other than 0 or 1 will generate meaningless distances for many of the functions.
+  # Scipy is no longer required as a dependency! You don't need to install it if you don't need it.
+
 = What's new in Version 0.1.7 =
 
   # Fixed some errors in the documentation for `median`, `centroid`, and `ward`.
