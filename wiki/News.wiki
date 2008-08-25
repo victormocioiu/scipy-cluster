@@ -1,5 +1,9 @@
 #summary This page contains a summary of changes in each version.
 
+= What's new in Version 0.1.9 =
+
+  # Fixed a bug in `hcluster.canberra` and `pdist(..., 'canberra')`.
+
 = What's new in Version 0.1.8 =
 
   # Arrays with data type other than `float64` (e.g. `float32`, `int`, `bool`) can be passed into any parameter in any function that requires a `double`. Any non-float64 data is copied into a new float64 array. 
