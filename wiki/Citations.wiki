@@ -7,7 +7,7 @@ If you used this package for analysis of results or experiments reported in a pa
 {{{
 @Misc{eads-hcluster-software,
   author = "Damian Eads",
-  note = "hcluster: Hierarchical Clustering for Scipy",
+  note = "hcluster: Hierarchical Clustering for SciPy",
   keywords =  "hcluster",
   URL = "http://scipy-cluster.googlecode.com/",
   year = 2008,
@@ -20,7 +20,7 @@ The following is the BibTeX citation for the [http://www.cs.ucsc.edu/~eads/clust
 
 {{{
 @Manual{eads-hcluster-apidoc,
-  title = {hcluster: Hierarchical Clustering for Scipy API Documentation (Eads)},
+  title = {hcluster: Hierarchical Clustering for SciPy API Documentation (Eads)},
   author = "Damian Eads",
   key  = {hcluster},
   year = {2008},
@@ -34,7 +34,7 @@ The following is the BibTeX citation for the [http://www.cs.ucsc.edu/~eads/iris.
 
 {{{
 @Manual{eads-hcluster-tutorial,
-  title = {hcluster: Hierarchical Clustering for Scipy Tutorial (Eads)},
+  title = {hcluster: Hierarchical Clustering for SciPy Tutorial (Eads)},
   author = "{\noopsort{hcluster}}{Damian Eads}",
   key  = {hcluster},
   year = {2008},
