@@ -20,7 +20,7 @@ The following is the BibTeX citation for the [http://www.cs.ucsc.edu/~eads/clust
 
 {{{
 @Manual{eads-hcluster-apidoc,
-  title = {hcluster: Hierarchical Clustering for SciPy API Documentation (Eads)},
+  title = {hcluster: Hierarchical Clustering for SciPy API Documentation},
   author = "Damian Eads",
   key  = {hcluster},
   year = {2008},
@@ -34,7 +34,7 @@ The following is the BibTeX citation for the [http://www.cs.ucsc.edu/~eads/iris.
 
 {{{
 @Manual{eads-hcluster-tutorial,
-  title = {hcluster: Hierarchical Clustering for SciPy Tutorial (Eads)},
+  title = {hcluster: Hierarchical Clustering for SciPy Tutorial},
   author = "{\noopsort{hcluster}}{Damian Eads}",
   key  = {hcluster},
   year = {2008},
