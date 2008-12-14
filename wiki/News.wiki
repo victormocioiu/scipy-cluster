@@ -1,5 +1,22 @@
 #summary This page contains a summary of changes in each version.
 
+= What's new in Version 0.2.0 =
+
+  # Regression test suite implemented with 300 tests covering all functions except `dendrogram`. In the hcluster source directory type `nosetests hcluster` to run the tests.
+  # Several bugs were found and fixed while writing the tests.
+  # Better error handling in routines.
+  # Documentation is now in RST format.
+  # Changes to few function and class names so that the API conforms to Python naming conventions [http://www.python.org/dev/peps/pep-0008/ PEP-0008].
+     * `cnode` is now `ClusterNode`
+     * `totree` is now `to_tree`
+     * `numobslinkage` is now `num_obs_linkage`
+     * `numobs_y` is now `num_obs_y`
+     * `numobs_dm` is now `num_obs_dm`
+     * `Z_y_correspond` is now `correspond`
+     * `lvlist` is now `leaves_list`
+
+Note: efforts are made to avoid changing the API whenever possible. However, the previous releases were alpha releases. The primary focus of these releases was bug fixes and feature enhancements, not adherence to the Python naming standard.
+
 = What's new in Version 0.1.9 =
 
   # Fixed a bug in `hcluster.canberra` and `pdist(..., 'canberra')`.
